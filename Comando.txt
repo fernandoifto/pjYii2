@@ -1,0 +1,4 @@
+
+sudo composer global require "fxp/composer-asset-plugin:~1.2.0"
+
+sudo composer create-project yiisoft/yii2-app-basic pjYii2
