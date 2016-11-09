@@ -3,8 +3,14 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'basic',
+     'id' => 'basic',
+    'name' => 'pjYii2',
+    //'version' => '',
     'basePath' => dirname(__DIR__),
+    'language' => "pt-BR",
+    'sourceLanguage' => "pt-BR",
+    'timeZone' => 'America/Araguaína',
+    'charset' => 'UTF-8',
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
